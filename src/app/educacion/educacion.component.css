@@ -1,0 +1,18 @@
+.paralax{
+    background: url(/assets/img/uab.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.titulo{
+    text-align: center;
+    color: #343a40;
+
+}
+
+.explicacion{
+    margin-bottom: 40px;
+}
+
+

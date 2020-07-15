@@ -1,0 +1,7 @@
+.info {
+    border-bottom: 6px solid #343a40;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}

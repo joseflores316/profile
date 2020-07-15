@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css']
 })
-export class LandingComponent implements OnInit {
+export class LandingComponent {
 
-  constructor() { }
+  mostrar:boolean = false;
 
-  ngOnInit(): void {
-  }
+  mainSaints : string[] = ['Shun', 'Ikki', 'Shiryū' ,'Hyōga'];
+
 
 }

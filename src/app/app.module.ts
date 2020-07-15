@@ -1,20 +1,47 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+
+
+import {ExperienciaService} from './services/experiencia.service';
+
+
+import { APP_ROUTING } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
+import { HeaderComponent } from './header/header.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { ProjectComponent } from './project/project.component';
+import { DetalleComponent } from './detalle/detalle.component';
+import { BuscadorComponent } from './buscador/buscador.component';
+import { ExperienciaTarjetaComponent } from './experiencia-tarjeta/experiencia-tarjeta.component';
+import { FooterComponent } from './footer/footer.component';
+
+//Rutas
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    HeaderComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    ProjectComponent,
+    DetalleComponent,
+    BuscadorComponent,
+    ExperienciaTarjetaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    APP_ROUTING
   ],
-  providers: [],
+  providers: [
+    ExperienciaService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
